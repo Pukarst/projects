@@ -1,6 +1,3 @@
-'''
-Date:- 6 January 2025
-'''
 def temp_converter():
     print("-----WELCOME TO THE TEMPERATURE CONVERSION-----")
     print("Select the conversion type :-")
