@@ -25,5 +25,3 @@ while guess<chances:
     elif user_guess<random_num:
         print(f'{name},Your guess number is low.Guess the higher number than {user_guess}')
     
-
-    
