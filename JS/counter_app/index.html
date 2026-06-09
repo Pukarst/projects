@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter App</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h2>
+    <i class="fa-solid fa-calculator"></i>
+    Counter App
+  </h2>
+
+  <p id="count">
+    <i class="fa-solid fa-hashtag"></i> 0
+  </p>
+
+  <div class="buttons">
+
+    <button class="plus" onclick="increaseCount()">
+      <i class="fa-solid fa-plus"></i>
+      Increase
+    </button>
+
+    <button class="minus" onclick="decreaseCount()">
+      <i class="fa-solid fa-minus"></i>
+      Decrease
+    </button>
+
+    <button class="reset" onclick="resetCount()">
+      <i class="fa-solid fa-rotate"></i>
+      Reset
+    </button>
+
+    <button class="save" onclick="saveCount()">
+      <i class="fa-solid fa-floppy-disk"></i>
+      Save
+    </button>
+
+    <button class="load" onclick="loadCount()">
+      <i class="fa-solid fa-folder-open"></i>
+      Load
+    </button>
+
+    <button class="theme" onclick="toggleTheme()" id="themeBtn">
+      <i class="fa-solid fa-moon"></i>
+      Dark
+    </button>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
